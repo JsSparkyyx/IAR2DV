@@ -276,13 +276,13 @@ def parse_args():
 
 if __name__ == '__main__':
     args = parse_args()
-    # object format <feature 1>,...,<feature n>,<label>
+    # object format <attribute 1>,...,<attribute n>,<label>
     # data = pd.read_csv(args.data,delimiter='\t',header=None)
     data = pd.read_csv(args.data,delimiter='\t',header=None).sample(700)
     data = np.array(data)
     np.random.shuffle(data)
 
-    # normalize data features
+    # normalize data attributes
     min_max_scaler = preprocessing.MinMaxScaler() 
     label = data[:,-1]
     nU = data[:,:-1]
