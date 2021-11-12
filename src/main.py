@@ -264,10 +264,8 @@ def KNNRun(nU,label,red_IAR,red_NIAR):
 
 def parse_args():
     parser = argparse.ArgumentParser()
-
     parser.add_argument('--data', type=str, default='./data/SPF.csv',
                         help='Input data path')
-    
     parser.add_argument('--exp', type=str, default='IARAAO',
                         help='Input exp type')
     parser.add_argument('--r', type=float, default=1,
