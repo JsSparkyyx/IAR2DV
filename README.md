@@ -1,5 +1,5 @@
 # Incremental Attribute Reduction Under Two Dimontionally Variation
-
+Python code for "A unified incremental updating framework of attribute reduction for two-dimensionally time-evolving data". We provide algorithms AAO, DAO, AADO and DAAO for incrementally calculating approximation quality under 4 types of data variation (addition/deletion of object/attribute), and algorithms IARAAO, IARDAO, IARAADO, IARDAAO for incremental feature selection under 4 types of data variation.
 ## Getting Started
 
 ### Installation
