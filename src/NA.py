@@ -24,7 +24,7 @@ def getInverseDiaMatrix(Du):
         Gu[i,i] = 1/Du[i,i]
     return Gu
 
-# 这里AAO的和DAO的不一样
+
 #compute distance matrix and relation matrix
 def getMS(U,r):
     M = np.zeros((U.shape[0],U.shape[0]))
